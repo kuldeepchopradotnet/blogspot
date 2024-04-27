@@ -56,3 +56,12 @@ aside.sidebar-container {
     line-height: 34px; /* Center the icon vertically */
     text-align: center; /* Center the icon horizontally */
 }
+
+
+.sidebar-container .sidebar_bottom {
+    width: 100% !important;
+    padding-top: 16px !important;
+    height: 78% !important;
+    max-height: 61% !important;
+    overflow: auto;
+}
