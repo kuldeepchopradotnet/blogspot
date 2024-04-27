@@ -41,6 +41,12 @@ aside.sidebar-container.container.sidebar-invisible {
     border-radius: 50%; /* Make the launcher container round */
     background: linear-gradient(145deg, #fed3bf, #5b2004); /* Apply gradient background */
     box-shadow: 0 4px 17px rgb(0 0 0 / 62%); /* Apply shadow effect */
+    transition: width 0.3s ease, height 0.3s ease; /* Add transition for width and height */
+}
+
+.side-launcher:hover {
+    width: 50px; /* Adjust the width on hover */
+    height: 50px; /* Adjust the height on hover */
 }
 
 /* Style for the launcher icon */
