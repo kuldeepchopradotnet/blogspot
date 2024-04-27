@@ -30,23 +30,23 @@ aside.sidebar-container.container.sidebar-invisible {
 
 /* Style for the side launcher container */
 .side-launcher {
-    width: 60px; /* Adjust the width of the launcher container */
-    height: 60px; /* Adjust the height of the launcher container */
+    width: 40px; /* Adjust the width of the launcher container */
+    height: 40px; /* Adjust the height of the launcher container */
     position: fixed; /* Position the launcher container fixed */
-    left: 20px; /* Adjust the left position */
-    top: 50%; /* Position the launcher container at 50% from the top */
+    left: 2%; /* Adjust the left position */
+    top: 92%; /* Position the launcher container at 50% from the top */
     transform: translateY(-50%); /* Center the launcher container vertically */
     z-index: 999; /* Set a high z-index to ensure it appears above other elements */
     cursor: pointer; /* Show pointer cursor on hover */
     border-radius: 50%; /* Make the launcher container round */
-    background: linear-gradient(145deg, #1e5799, #2989d8); /* Apply gradient background */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Apply shadow effect */
+    background: linear-gradient(145deg, #fed3bf, #5b2004); /* Apply gradient background */
+    box-shadow: 0 4px 17px rgb(0 0 0 / 62%); /* Apply shadow effect */
 }
 
 /* Style for the launcher icon */
 .icon {
-    font-size: 28px; /* Adjust the size of the icon */
-    color: white; /* Set the color of the icon */
-    line-height: 60px; /* Center the icon vertically */
+    font-size: 53px; /* Adjust the size of the icon */
+    color: #fcfeff; /* Set the color of the icon */
+    line-height: 34px; /* Center the icon vertically */
     text-align: center; /* Center the icon horizontally */
 }
