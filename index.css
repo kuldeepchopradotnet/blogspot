@@ -65,3 +65,11 @@ aside.sidebar-container {
     max-height: 61% !important;
     overflow: auto;
 }
+
+div#FeaturedPost1 {
+    display: none;
+}
+
+.post-body {
+    color: #353535 !important;
+}
