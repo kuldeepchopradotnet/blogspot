@@ -27,3 +27,17 @@ aside.sidebar-container.container.sidebar-invisible {
 .bg-photo-overlay {
     background: rgb(0 0 0 / 52%) !important;
 }
+
+/* Style for the side launcher button */
+.side-launcher {
+    width: 50px; /* Adjust the width of the button */
+    height: 50px; /* Adjust the height of the button */
+    background-color: #007bff; /* Set the background color of the button */
+    border-radius: 50%; /* Make the button round */
+    position: fixed; /* Position the button fixed */
+    left: 20px; /* Adjust the left position */
+    top: 50%; /* Position the button at 50% from the top */
+    transform: translateY(-50%); /* Center the button vertically */
+    z-index: 999; /* Set a high z-index to ensure it appears above other elements */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
