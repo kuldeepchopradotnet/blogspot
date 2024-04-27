@@ -3,12 +3,7 @@ function hello() {
 }
 
 
-function hideSideBar() {
+function toggleHideSideBar() {
     let sideBar = document.getElementById("side-bar");
-    if(sideBar.style.display === 'none'){
-        sideBar.style.display === ''
-    }
-    else {
-        sideBar.style.display === 'none'
-    }
+    sideBar.classList.toggle('hide');
 }
