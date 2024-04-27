@@ -14,7 +14,7 @@
 }
 
 
-aside.sidebar-container.container.sidebar-invisible {
+aside.sidebar-container {
     border-radius: 18px !important;
     position: fixed;
     top: 15%;
